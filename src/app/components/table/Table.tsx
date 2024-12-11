@@ -3,7 +3,7 @@ import { TH } from '@/lib';
 
 export function Table() {
   return (
-    <table className="w-full h-full">
+    <table className="max-w-[1250px] w-full h-full mx-auto">
       <thead>
         <tr className="flex items-center justify-between w-full gap-12">
           {TH.map((th) => (
